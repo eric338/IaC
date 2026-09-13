@@ -1,0 +1,13 @@
+# Terraform이 다운로드한 프로바이더 (용량 크고 재생성 가능)
+.terraform/
+
+# 상태 파일 — 리소스 정보가 평문으로 들어감
+*.tfstate
+*.tfstate.*
+
+# 변수 파일 — 민감한 값이 들어갈 수 있음
+*.tfvars
+*.tfvars.json
+
+# 크래시 로그
+crash.log
